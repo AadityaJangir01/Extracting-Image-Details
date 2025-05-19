@@ -4,7 +4,7 @@ import os
 import PIL.Image
 import pandas as pd
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCU6svyJHIFp4q_KNlFeHsPl2UQ6fU4-CQ"
+os.environ["GOOGLE_API_KEY"] = "add your api key"
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 model = genai.GenerativeModel("gemini-1.5-flash")
